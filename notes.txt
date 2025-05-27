@@ -1,1 +1,20 @@
-Message Agenda
+mkdir project-alpha         # Create a directory
+cd project-alpha            # Navigate into the directory
+git init                    # Initialize a new Git repositor
+
+
+echo "Meeting Agenda" > notes.txt     # Create notes.txt with content
+touch data.csv                        # Create an empty data.csv file
+git add notes.txt data.csv            # Stage the files for commit
+
+
+git checkout -b experiment            # Create and switch to the 'experiment' branch
+echo 'print("Hello")' > test.py       # Create test.py with print statement
+git add test.py                       # Stage the new file
+git commit -m "Experimental feature"  # Commit with message
+
+
+git checkout -b experiment            # Create and switch to the 'experiment' branch
+echo 'print("Hello")' > test.py       # Create test.py with print statement
+git add test.py                       # Stage the new file
+git commit -m "Experimental feature"  # Commit with message
